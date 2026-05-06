@@ -1,0 +1,25 @@
+{
+  "name": "duckguard",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "bun test",
+    "migrate": "graphile-migrate migrate",
+    "migrate:commit": "graphile-migrate commit",
+    "migrate:current": "graphile-migrate current",
+    "migrate:status": "graphile-migrate status",
+    "migrate:watch": "graphile-migrate watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "graphile-migrate": "^1.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.5.2-r.1",
+    "envalid": "^8.1.1"
+  }
+}
