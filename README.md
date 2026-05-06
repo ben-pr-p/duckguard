@@ -1,6 +1,6 @@
 # DuckGuard
 
-DuckGuard is a simple security layer for DuckLake that gives DuckLake catalog, schema, and table level permissions
+DuckGuard is a simple permission layer for DuckLake that gives DuckLake catalog, schema, and table level permissions
 similar to PostgreSQL. It's not a service or proxy layer, but a big SQL script that you run on your database.
 
 ## How It Works
